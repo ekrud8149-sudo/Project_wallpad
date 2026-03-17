@@ -1,4 +1,5 @@
 Smart Wallpad System (Home Assistant 기반 IoT 출입 관리 시스템)
+
 ### *🎨 프로젝트 목표 !*
 - Raspberry Pi + Touch Display 기반 Wallpad UI 구현
 - Raspberry Pi와 7" Touch Display를 사용하여 homeassistant를 활용한 Wallpad 구현
@@ -95,6 +96,13 @@ Home Assistant → 자동화 처리
 이벤트 → MariaDB 저장
 
 사용자 → UI (Touch Display)로 제어
+
+## *Maria DB*
+![image.png](attachment:774e6816-3906-4e78-86a9-b1fe93382bdb:image.png)
+
+![image.png](attachment:56d9a6ab-95b8-49b4-a4b4-d55a32561651:image.png)
+
+![image.png](attachment:ad288279-296e-4d6d-a7aa-4255f70faf80:image.png)
 
 ## *Trougle Shooting*
 ❗ Issue
