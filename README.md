@@ -57,25 +57,7 @@ Home Assistant UI에 날짜, 시간, 날씨 표시
 
 📂 프로젝트 구조
 
-├── cam_server.py
-│   └── Flask 기반 웹캠 스트리밍 및 스냅샷 서버
-│
-├── bridge.py
-│   └── Serial ↔ MQTT ↔ MariaDB ↔ Home Assistant 브릿지
-│
-├── homeassistant/
-│   ├── configuration.yaml
-│   └── automations.yaml
-│
-├── firmware/
-│   ├── STM32/
-│   └── Arduino/
-│
-└── database/
-    └── MariaDB/
-        ├── rfid_log    # 유저 재실 상태 로그
-        ├── door_bell   # 초인종 이벤트 기록
-        └── door_lock   # 도어락 상태 기록
+<img width="366" height="399" alt="화면 캡처 2026-03-17 155133" src="https://github.com/user-attachments/assets/d0434c26-d7d0-4b4d-b964-45f7bb1c484c" />
 
         
 🔧 기술 스택
