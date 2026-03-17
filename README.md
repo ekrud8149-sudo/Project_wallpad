@@ -5,6 +5,7 @@ Smart Wallpad System (Home Assistant 기반 IoT 출입 관리 시스템)
 - stm32과 arduino uno 보드를 사용하여 센서값 전달 및 mariaDB 저장
 
 
+
 👨‍💻 담당 역할
 
 STM32 보드에 버튼, 부저, 서보모터, LED 연결 및 Raspberry Pi 연동
@@ -15,8 +16,10 @@ Flask 기반 실시간 웹캠 스트리밍 및 캡처 시스템 구현
 
 Home Assistant UI에 날짜, 시간, 날씨 표시
 
+
 🎥 시연 영상
 https://youtu.be/M8JA2rLNz2I?si=XrtbHMHnrbMkMU0O
+
 
 🖥️ UI 화면
 
@@ -81,7 +84,7 @@ MQTT
 
 MariaDB
 
-##**데이터 흐름**
+## *데이터 흐름*
 
 STM32 / Arduino → Serial → Raspberry Pi
 
@@ -93,7 +96,7 @@ Home Assistant → 자동화 처리
 
 사용자 → UI (Touch Display)로 제어
 
-##**Trougle Shooting**
+## *Trougle Shooting*
 ❗ Issue
 
 PC 기반 Qt 환경과 Raspberry Pi 터치스크린 간
